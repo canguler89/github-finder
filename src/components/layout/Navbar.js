@@ -8,6 +8,11 @@ const Navbar = ({ icon, title }) => {
         <i className={icon} />
         {title}
       </h1>
+      <ul>
+        <li>
+          <a href="/">Home</a>
+        </li>
+      </ul>
     </nav>
   );
 };
